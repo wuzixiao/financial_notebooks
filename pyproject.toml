@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "financial-notebooks"
+version = "0.1.0"
+description = ""
+authors = ["Tom Liu <wuzi.xiao@gmail.com>"]
+readme = "README.md"
+packages = [{include = "financial_notebooks"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ta-lib = "^0.4.25"
+pandas = "^1.5.1"
+seaborn = "^0.12.1"
+bt = "^0.2.9"
+ipykernel = "^6.16.0"
+flake8 = "^5.0.4"
+mypy = "^0.982"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
